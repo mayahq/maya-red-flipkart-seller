@@ -1,0 +1,27 @@
+{
+  "name": "maya-red-flipkart-seller",
+  "version": "v0.0.1",
+  "description": "Maya module to automate Flipkart Seller API",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayahq/mayadev/issues"
+  },
+  "homepage": "#readme",
+  "dependencies": {
+    "@mayahq/module-sdk": "^0.1.0"
+  },
+  "nodepath": "src/nodes",
+  "nodeRedModuleName": "maya-red-flipkart-seller",
+  "node-red": {
+    "nodes": {
+      "generate-labels": "src/nodes/generateLabels/generateLabels.node.js"
+    }
+  }
+}
