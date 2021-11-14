@@ -15,7 +15,7 @@
   },
   "homepage": "#readme",
   "dependencies": {
-    "@mayahq/module-sdk": "^0.1.0"
+    "@mayahq/module-sdk": "^0.4.11"
   },
   "nodepath": "src/nodes",
   "nodeRedModuleName": "maya-red-flipkart-seller",
