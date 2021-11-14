@@ -1,0 +1,70 @@
+<script type='text/javascript'>
+    RED.nodes.registerType("generate-labels", {
+        category: "Maya Red Flipkart Seller",
+        color: "#8BBDD9",
+        defaults: {
+            name: {
+                value: ""
+            },
+            isProfileConfigNode: {
+                value: false
+            },
+        },
+        inputs: 1,
+        outputs: 1,
+        icon: "fa-file-code-o.png",
+        label: function() {
+            return this.name || "generate-labels"
+        },
+        paletteLabel: "generate-labels",
+        exportable: true,
+        oneditprepare: function() {},
+        oneditsave: function() {},
+        oneditcancel: function() {},
+        oneditdelete: function() {},
+        oneditresize: function() {},
+        onpaletteadd: function() {},
+        onpaletteremove: function() {}
+    });
+</script>
+
+<script type="text/html" data-template-name="generate-labels">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" style="width:70%;" placeholder="Name" />
+    </div>
+</script>
+
+<script type="text/html" data-help-name="generate-labels">
+    <h2 data-type="description-title">Description</h2>
+    <p data-type="description-summary">Flipkart seller api node to generate labels for orders.</p>
+
+    <h2>Config</h2>
+    <dl class="message-properties">
+
+        <dt>
+            <snap class="property-name">payload</snap>
+            <span class="property-type">various</span>
+        </dt>
+        <dd>The configured payload of the message.</dd>
+
+        <dt class="optional">
+            <snap class="property-name">topic</snap>
+            <span class="property-type">string</span>
+        </dt>
+        <dd>An optional property</dd>
+
+    </dl>
+
+
+    <h2>Outputs</h2>
+    <dl class="message-properties">
+
+        <dt>payload<span class="property-type">various</span></dt>
+        <dd>The configured payload of the message.</dd>
+
+        <dt class="optional">topic <span class="property-type">string</span></dt>
+        <dd>An optional property</dd>
+
+    </dl>
+</script>
